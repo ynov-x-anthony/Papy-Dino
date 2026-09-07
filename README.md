@@ -2,7 +2,7 @@
 
 ## Effectif
 - Evan Sedda (Lead Dev)
-- Loic Servajean (Dev -> Compteur)
+- Loic Servajean (Dev -> Map)
 - Geoffroy Huart (Dev -> Composant)
 - Hocine Doukali (Dev -> Compteur)
 - Nicolas Caioll (Dev -> CSS)
@@ -17,14 +17,15 @@ Il contient une image, un titre et un compteur de dinoseaur
 ```text
 tp_group/
 ├── public/
+│   ├── DinosaureAntique.png
+│   ├── DinosaureNugget.png
+│   ├── DinosaureRoux.png
+│   ├── DiplodocusRoux.png
+│   ├── PapiDinosaure.png
 │   ├── favicon.svg
 │   └── icons.svg
 ├── src/
 │   ├── assets/
-│   │   ├── DinosaureAntique.png
-│   │   ├── DinosaureNugget.png
-│   │   ├── DinosaureRoux.png
-│   │   ├── PapiDinosaure.png
 │   │   ├── hero.png
 │   │   ├── react.svg
 │   │   └── vite.svg
@@ -46,4 +47,14 @@ tp_group/
 
 ## Lancement du projet
 
-- Clonner le repo # Papy-Dino
+- Clonner le repo ```git clone https://github.com/ynov-x-anthony/Papy-Dino.git```
+
+- Telecharger les nodes modules (dans le projet)```npm install```
+- Lancer le server sur localhost ```npm run dev```
+- Rendez vous sur localhost (par defaut:5173)
+## Pre-Requis
+
+- Git
+- Un IDE
+- Node.js
+
